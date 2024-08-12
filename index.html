@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommender</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="container">
+        <h1>Simple Movie Recommender</h1>
+        <div class="genre-selection">
+            <label for="genre">Choose a genre:</label>
+            <select id="genre">
+                <option value="action">Action</option>
+                <option value="comedy">Comedy</option>
+                <option value="drama">Drama</option>
+                <option value="horror">Horror</option>
+            </select>
+        </div>
+        <button id="recommend-button">Recommend Movie</button>
+        <div id="recommendation" class="recommendation"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
